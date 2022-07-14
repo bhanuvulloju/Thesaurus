@@ -36,7 +36,7 @@ def getinfo():
     try:
         txt = getting_req.json()
         if(txt["title"]=="No Definitions Found"):
-            messagebox.showwarning("ERROR❌", "cHECk tHe sPeLling")
+            messagebox.showwarning("ERROR❌", "cHeCk tHe sPeLLing")
     except:
         pass
     else:
